@@ -1,0 +1,51 @@
+HELP.md
+target/
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# Ignora o jar do wrapper, mas mantém os scripts mvnw
+.mvn/wrapper/maven-wrapper.jar
+
+### Logs (Spring Boot e scripts de verificação .ps1) ###
+*.log
+
+### Neovim / Vim ###
+*.swp
+*.swo
+*~
+Session.vim
+.netrwhist
+
+### VS Code ###
+.vscode/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse / STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Pastas Específicas do Projeto ###
+.agent/
+docs/
+verify/
